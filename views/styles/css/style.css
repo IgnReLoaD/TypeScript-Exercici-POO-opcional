@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body {    
+    font-family: 'New Tegomin', serif;
+    background: rgba(0, 0, 0, 0.789);
+    /*la imatge esta també a la carpeta assets per si l'enllaç mai fallés agafaria la local */
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/11/14/09/eggs-3216877_960_720.jpg'),
+                      url('../../assets/eggs-3216877_960_720.jpg');
+            background-attachment: fixed; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+            min-height: 700px; "> 
+}
+
+.shaded-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+}
